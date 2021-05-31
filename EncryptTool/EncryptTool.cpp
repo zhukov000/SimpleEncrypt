@@ -16,8 +16,6 @@
 
 #include "EncryptLib.h"
 
-// CreateGamma(5, "")
-
 void PrintHelp() {
 	std::ifstream fin("help.txt");
 	while (!fin.eof()) {
